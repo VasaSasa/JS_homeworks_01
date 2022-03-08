@@ -17,7 +17,14 @@
   <section>
     <p>
 
-        řešení 
+      let user = Number(prompt("Zadej celé číslo.(kladné, záporné,nulu)"));<br>
+      if (user == 0) {<br>
+          <span>console.log("Zadal jsi nulu.");<br></span>
+      } else if (user > 0) {<br>
+          <span>console.log("Zadal jsi kladné číslo.");<br></span>
+      } else {<br>
+          <span>console.log("Zadal jsi záporné číslo.");<br></span>
+      } <br>
 
 
     </p>
@@ -30,12 +37,17 @@
 
 <article>
     <h2>2. Ask the user for their age and check the correctness of the 
-      entered data (0–120 years old).</h2>
+      entered data (0–120 years old). </h2>
   
     <section>
       <p>
   
-            řešení
+        let user = Number(prompt("Zadejte svůj věk."));<br>
+        if (user > 0 && user <= 120) {<br>
+            <span>console.log("Váš věk je:",user,"rok/roky/roků.");<br></span>
+        } else {<br>
+            <span>console.log("Zadaný věk neodpovídá lidskému životu!!!");<br></span>
+        }<br>
   
       </p>
   
@@ -50,7 +62,11 @@
     <section>
       <p>
   
-            řešení
+        let user = Number(prompt("Zadejte celé číslo.(V matematice označeno Z)"));<br>
+        if (user >= 0) {<br>
+            <span>console.log("(|",user,"|=",user,",","|-",user,"|=",user,")");<br></span>
+        } else {<br>
+            <span>console.log("(|",Math.abs(user),"|=",Math.abs(user),",","|",user,"|=",Math.abs(user),")");<br></span>
   
       </p>
   
@@ -139,7 +155,7 @@
         <section>
           <p>
       
-                řešení
+            řešení
       
           </p>
       
