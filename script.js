@@ -29,15 +29,15 @@ if (user >= 0) {
 
 
 
-/*let user = Number(prompt("Zadejte celé číslo.(V matematice označeno Z)"));
+let user = Number(prompt("Zadejte celé číslo.(V matematice označeno Z)"));
 if (user >= 0) {
-    console.log("(|",user,"|=",user,",","|-",user,"|=",user,")");
+    console.log("(|",user,"|=",user,", |-",user,"|=",user,")");
 } else {
-    console.log("(|",Math.abs(user),"|=",Math.abs(user),",","|",user,"|=",Math.abs(user),")");
-}*/
+    console.log("(|",Math.abs(user),"|=",Math.abs(user),", |",user,"|=",Math.abs(user),")");
+}
 
 
-let date = new Date();
-console.log(date);
+// let date = new Date();
+// console.log(date);
 // let hours = getHours();
 // console.log(hours);
